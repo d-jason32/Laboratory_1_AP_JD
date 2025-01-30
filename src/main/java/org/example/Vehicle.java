@@ -85,10 +85,11 @@ public class Vehicle {
     displayInfo() method displays all the fields of the object.
      */
     public void displayInfo(){
-        System.out.println("Vehicle Class");
+        System.out.println("Vehicle Class: Display info");
         System.out.println("Number of wheels: " + numberOfWheels);
         System.out.println("Color: " + color);
         System.out.println("Engine Size: " + engineSize);
         System.out.println("Fuel Type: " + fuelType);
+        System.out.printf("\n");
     }
 }
