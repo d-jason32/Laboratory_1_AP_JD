@@ -5,8 +5,13 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
 
+        Vehicle truck = new Vehicle();
+        truck.displayInfo();
 
+
+        System.out.println("Creating a new Car class!");
         Car honda = new Car();
+        honda.displayInfo();
         honda.honk();
         }
     }

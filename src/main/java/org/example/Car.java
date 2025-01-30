@@ -3,8 +3,20 @@ package org.example;
 public class Car extends Vehicle{
     public String brand;
 
-    Car(){
+    public Car(int numberOfWheels, String color, float engineSize, String fuelType, String brand) {
+        this.numberOfWheels = numberOfWheels;
+        this.color = color;
+        this.engineSize = engineSize;
+        this.fuelType = fuelType;
+        this.brand = brand;
+    }
 
+    public Car() {
+        numberOfWheels = 4;
+        color = "Red";
+        engineSize = 2.2f;
+        fuelType = "Gasoline";
+        brand = "Honda";
     }
 
     public void honk(){
